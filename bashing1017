@@ -1,0 +1,29 @@
+#!/bin/bash
+if [ -e $1 ]
+then
+	echo $1 létezik
+else
+	echo $1 nem létezik
+	echo "*************"
+fi
+
+
+#!/bin/bash
+mkdir $1
+cd $1
+touch $2
+
+
+#!/bin/bash
+echo $0
+echo ----------
+echo $1
+echo $2
+echo ===========
+echo $3
+
+
+#!/bin/bash
+for i in {3..9}; do
+	echo $i
+done
